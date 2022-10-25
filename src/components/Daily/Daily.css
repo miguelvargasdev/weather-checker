@@ -1,0 +1,23 @@
+.day-container{
+    background-color: #1a2c30;
+    margin: 0.5rem 0.5rem;
+    padding: 0.7rem 0.5rem;
+    border-radius: 16px;
+}
+
+.selected{
+    background-color: #75c4da;
+    color: #0d1618;
+    font-weight: 700;
+
+}
+.selected .fahrenheit{
+    color:#bd583d;
+}
+
+@media (min-width: 600px) {
+    .day-container{
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+  }
